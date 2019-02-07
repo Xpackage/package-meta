@@ -13,14 +13,14 @@ $ npm install package-meta-d
 ## Usage
 
 ```js
-const packageJson = require('package-json');
+const packageJson = require('package-meta-d');
 
 (async () => {
 	console.log(await packageJson('angular'));
 	//=> {name: 'ava', ...}
 
 	// Also works with scoped packages
-	console.log(await packageJson('@sindresorhus/df'));
+	console.log(await packageJson('@angular/cli'));
 })();
 ```
 

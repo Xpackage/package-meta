@@ -25,7 +25,6 @@ module.exports = async (name, options) => {
 		version: 'latest',
 		...options
 	};
-
 	const scope = name.split('/')[0];
 	const regUrl = registryUrl(scope);
 	const pkgUrl = new URL(encodeURIComponent(name).replace(/^%40/, '@'), regUrl);
