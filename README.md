@@ -1,4 +1,4 @@
-# package-meta-d [![Build Status](https://travis-ci.org/sindresorhus/package-json.svg?branch=master)](https://travis-ci.org/sindresorhus/package-json)
+# package-meta-d 
 
 > Get metadata of a package from the npm registry
 
