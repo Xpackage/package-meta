@@ -1,4 +1,4 @@
-# package-json [![Build Status](https://travis-ci.org/sindresorhus/package-json.svg?branch=master)](https://travis-ci.org/sindresorhus/package-json)
+# package-meta-d [![Build Status](https://travis-ci.org/sindresorhus/package-json.svg?branch=master)](https://travis-ci.org/sindresorhus/package-json)
 
 > Get metadata of a package from the npm registry
 
@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install package-json
+$ npm install package-meta-d
 ```
 
 
@@ -16,7 +16,7 @@ $ npm install package-json
 const packageJson = require('package-json');
 
 (async () => {
-	console.log(await packageJson('ava'));
+	console.log(await packageJson('angular'));
 	//=> {name: 'ava', ...}
 
 	// Also works with scoped packages
